@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Eleanor — Privacy Policy</title>
+<style>
+  :root{--bg:#fff;--fg:#1a1a1a;--muted:#555;--link:#0b5fff}
+  @media (prefers-color-scheme:dark){:root{--bg:#121417;--fg:#ececec;--muted:#aaa;--link:#7aa7ff}}
+  body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif}
+  main{max-width:760px;margin:0 auto;padding:40px 16px 64px}h1{font-size:1.8rem}h2{font-size:1.2rem;margin-top:1.6em}
+  a{color:var(--link)}.muted{color:var(--muted)}ul{padding-left:1.2em}hr{border:0;border-top:1px solid #8884;margin:2em 0}
+</style>
+</head>
+<body>
+<main>
+  <p><a href="index.html">← Eleanor</a></p>
+  <h1>Privacy Policy</h1>
+  <p class="muted">Effective date: 3 October 2026. Applies to the Telegram bot «Eleanor» (@eleanor_helpy_bot) and its website.</p>
+
+  <h2>1. Who we are</h2>
+  <p>Eleanor is a personal AI assistant operated by Dzmitry Karahin, an individual based in Minsk, Belarus (the «Operator»). Contact for any privacy question or request: <a href="mailto:dzmitry.karahin@yahoo.com">dzmitry.karahin@yahoo.com</a>.</p>
+
+  <h2>2. What data we collect</h2>
+  <ul>
+    <li><b>Telegram account data</b>: your Telegram user id, first name, username and language code — to identify you and address you by name.</li>
+    <li><b>Your messages to Eleanor</b>: text, voice messages (transcribed to text), photos and files you send, and Eleanor's replies. These are needed for the assistant to work and to remember context.</li>
+    <li><b>Things you ask Eleanor to keep</b>: reminders, calendar events, tasks, notes and facts about you (for example your preferences, people you mention, health notes you dictate), expenses, contacts, documents, trips, habits, meter readings and similar records.</li>
+    <li><b>Settings</b>: time zone, language, quiet hours, home address if you share it, and location updates while you choose to share live location in Telegram (used only for location-based reminders; not stored as a history of movements).</li>
+    <li><b>Data from services you connect</b> (see section 4), only for the features you use.</li>
+    <li><b>Technical data</b>: error logs without message content, and usage counters (number of requests, tokens) for billing and limits.</li>
+  </ul>
+
+  <h2>3. How we use data</h2>
+  <ul>
+    <li>To provide the assistant: answer your requests, deliver reminders and briefs, search your own notes and documents.</li>
+    <li>To remember context: Eleanor keeps a short conversation history and a memory of facts you share, so you do not have to repeat yourself.</li>
+    <li>To process requests with AI models: the text of your request (and, where relevant, excerpts of your notes, documents or connected-service data needed to answer) is sent to the Anthropic API (Claude models) to generate a reply, and voice messages are sent to Google Gemini for speech recognition and speech synthesis. These providers process data on our behalf under their API terms and do not use it to train their models.</li>
+    <li>We do not sell personal data, do not show advertising and do not profile users for third parties.</li>
+  </ul>
+
+  <h2>4. Data from Google and other connected services</h2>
+  <p>You may connect your own accounts (Google, Apple iCloud Calendar, Notion and other services). Access is granted by you through the provider's own authorisation screen and can be revoked at any time.</p>
+  <p><b>Google user data.</b> Eleanor's use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements. Specifically:</p>
+  <ul>
+    <li><b>Google Calendar</b>: Eleanor reads your events to show your day and to deliver reminders, and creates, updates or deletes events only when you ask.</li>
+    <li><b>Google Contacts</b>: Eleanor reads contact names, phone numbers, emails and birthdays to recognise people you mention and to remind you of birthdays.</li>
+    <li><b>Gmail</b> (only if you connect it separately): Eleanor searches and reads messages when you ask about your mail, and creates drafts in your Gmail when you ask her to write a reply. Eleanor never sends email on your behalf, never deletes messages and never modifies labels. Message content is used only to prepare the answer you requested; it is sent to the AI provider for that purpose and is not stored in Eleanor's database beyond the assistant's reply in your chat history.</li>
+    <li>Google data is not transferred to any third party except the AI processing described above, is not used for advertising, and is not read by humans except with your explicit consent, for security purposes, or as required by law.</li>
+    <li>Access tokens are stored encrypted. Disconnect at any time with <code>/disconnect google</code>, <code>/disconnect gmail</code> or at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>; tokens are deleted immediately.</li>
+  </ul>
+
+  <h2>5. Where data is stored and who can access it</h2>
+  <p>Data is stored in a Supabase (PostgreSQL) database and file storage hosted in the European Union, and processed by the bot's server. Access to the database is restricted to the Operator. Service credentials and tokens are stored encrypted. Each user's data is isolated: Eleanor never shows one user's data to another.</p>
+
+  <h2>6. Retention and deletion</h2>
+  <ul>
+    <li>Full text of conversations is kept for up to 48 hours and then replaced by short summaries used for memory; records you asked Eleanor to keep (reminders, events, notes, documents) are kept until you delete them.</li>
+    <li>You can delete everything about you at any time with the <code>/delete_me</code> command in the bot. This removes your messages, memory, records, documents and all connected-service tokens.</li>
+    <li>Backups are kept for up to 30 days and then destroyed.</li>
+  </ul>
+
+  <h2>7. Your rights</h2>
+  <p>You can access, correct or delete your data at any time inside the bot, or by writing to the Operator. We answer requests within 30 days.</p>
+
+  <h2>8. Children</h2>
+  <p>Eleanor is not intended for children under 16, and we do not knowingly collect their data.</p>
+
+  <h2>9. Changes</h2>
+  <p>We may update this policy; the effective date above changes when we do. Material changes are announced in the bot.</p>
+
+  <hr>
+  <h1>Политика приватности (по-русски)</h1>
+  <p class="muted">Действует с 3 октября 2026. Относится к боту «Eleanor» (@eleanor_helpy_bot) и его сайту.</p>
+  <h2>Кто мы</h2><p>Оператор — Дмитрий Карагин, Минск, Беларусь. Вопросы: <a href="mailto:dzmitry.karahin@yahoo.com">dzmitry.karahin@yahoo.com</a>.</p>
+  <h2>Какие данные собираем</h2>
+  <ul>
+    <li>Данные Telegram: id, имя, username, язык — чтобы узнавать вас и обращаться по имени.</li>
+    <li>Ваши сообщения боту (текст, голосовые в виде расшифровки, фото и файлы) и его ответы — они нужны ассистенту, чтобы работать и помнить контекст.</li>
+    <li>То, что вы просите хранить: напоминания, события, задачи, заметки и факты о вас, расходы, контакты, документы, поездки, привычки, показания счётчиков.</li>
+    <li>Настройки: часовой пояс, язык, тихие часы, домашний адрес, если вы его сказали; геопозиция — только пока вы сами транслируете её в Telegram, для напоминаний по месту, без хранения истории перемещений.</li>
+    <li>Данные подключённых вами сервисов — только для функций, которыми вы пользуетесь.</li>
+  </ul>
+  <h2>Как используем</h2>
+  <p>Чтобы отвечать на запросы, присылать напоминания и брифы, искать в ваших заметках и документах, помнить контекст. Текст запроса (и нужные для ответа выдержки из заметок, документов или подключённых сервисов) обрабатывается моделями Anthropic (Claude); голосовые — Google Gemini для распознавания и синтеза речи. Эти провайдеры обрабатывают данные по нашему поручению и не обучают на них модели. Мы не продаём данные, не показываем рекламу.</p>
+  <h2>Данные Google</h2>
+  <p>Использование данных из Google API соответствует Google API Services User Data Policy, включая требования Limited Use. Календарь: чтение событий и создание по вашей просьбе. Контакты: имена, телефоны, почта, дни рождения — чтобы узнавать людей и напоминать о датах. Gmail (если подключён отдельно): поиск и чтение писем по вашей просьбе и создание черновиков; бот никогда не отправляет письма, не удаляет и не меняет ярлыки; текст письма используется только для подготовки ответа и в базе бота не хранится. Токены хранятся зашифрованными; отключить — <code>/disconnect google</code>, <code>/disconnect gmail</code> или на myaccount.google.com/permissions.</p>
+  <h2>Хранение и удаление</h2>
+  <p>База Supabase (PostgreSQL) и хранилище файлов в ЕС, доступ только у оператора, данные пользователей изолированы. Полный текст диалогов хранится до 48 часов, затем заменяется краткими конспектами. Команда <code>/delete_me</code> удаляет всё о вас, включая токены сервисов. Резервные копии хранятся до 30 дней.</p>
+  <h2>Ваши права</h2><p>Доступ, исправление и удаление данных — в боте или письмом оператору; ответ в течение 30 дней. Бот не предназначен для детей младше 16 лет.</p>
+  <p class="muted"><a href="index.html">Eleanor</a> · <a href="terms.html">Terms of Service</a></p>
+</main>
+</body>
+</html>
