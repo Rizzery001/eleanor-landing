@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Eleanor — AI secretary in Telegram</title>
-<meta name="description" content="Eleanor is an AI secretary that lives in Telegram: reminders, calendar, memory, documents, money and voice, for business and everyday life. A product of Zeroin Ltd.">
+<meta name="description" content="Eleanor is an AI secretary that lives in Telegram: reminders, calendar, memory, documents, money and voice, for business and everyday life. A product of ZEROINE LTD.">
 <meta property="og:title" content="Eleanor — AI secretary in Telegram">
 <meta property="og:description" content="Tell her what to do. She remembers the rest. 94 built-in skills, three languages, voice conversations, pay only for what you use.">
 <meta property="og:type" content="website">
@@ -146,6 +146,11 @@
   details[open] summary::after { content: "–"; }
   details p { color: var(--muted); margin-top: 8px; font-size: .97rem; }
 
+  .about { border-top: 1px solid var(--line); }
+  .about .wrap { display: grid; grid-template-columns: 1fr 1fr; gap: 44px; align-items: start; }
+  .about .card { background: var(--card); border: 1px solid var(--line); border-radius: 20px; padding: 24px; display: grid; gap: 8px; align-content: start; color: var(--muted); }
+  .about .card b { color: var(--fg); font-family: var(--display); font-size: .95rem; }
+  @media (max-width: 900px) { .about .wrap { grid-template-columns: 1fr; } }
   .final { padding-block: 72px; text-align: center; background: var(--ink-deep); color: #e9f3ef; }
   .final h2 { color: #fff; }
   .final .wrap { display: grid; gap: 20px; justify-items: center; }
@@ -186,6 +191,7 @@
       <a href="#how">How it works</a>
       <a href="#pricing">Pricing</a>
       <a href="#privacy">Privacy</a>
+      <a href="#about">About us</a>
       <a class="go" href="https://t.me/eleanor_helpy_bot">Open in Telegram</a>
     </nav>
   </div>
@@ -194,7 +200,7 @@
 <section class="hero" id="top">
   <div class="wrap">
     <div class="stack">
-      <span class="eyebrow">AI secretary in Telegram · by Zeroin Ltd</span>
+      <span class="eyebrow">AI secretary in Telegram · by ZEROINE LTD</span>
       <h1>Tell her what to do. She remembers the rest.</h1>
       <p class="lead">Eleanor runs your work and your life from an ordinary Telegram chat. Reminders, calendar, money, documents, people and promises, in your words, by text or by voice. No app to install, nothing to configure.</p>
       <div class="cta">
@@ -360,6 +366,24 @@
   </div>
 </section>
 
+<section class="about" id="about">
+  <div class="wrap">
+    <div class="stack">
+      <span class="eyebrow">About us</span>
+      <h2>Built by ZEROINE LTD</h2>
+      <p class="lead">Eleanor is designed, built and operated by ZEROINE LTD, a company registered in the United Kingdom. She grew out of her founder's own working days: property, retail and a family, all needing the same thing, a secretary who never forgets and never needs a form filled in.</p>
+      <p class="lead">We keep the product small on the outside and serious on the inside: one chat, no app to install, and engineering you can trust with real contracts, real money and real promises.</p>
+    </div>
+    <div class="card">
+      <b>ZEROINE LTD</b>
+      <span>Registered in the United Kingdom</span>
+      <span>Product: Eleanor, AI secretary in Telegram (@eleanor_helpy_bot)</span>
+      <span>Contact: <a href="mailto:dzmitry.karahin@yahoo.com">dzmitry.karahin@yahoo.com</a></span>
+      <span>Legal: <a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Service</a></span>
+    </div>
+  </div>
+</section>
+
 <section class="final">
   <div class="wrap">
     <h2>Message her today. Tomorrow morning she sends your first brief.</h2>
@@ -370,7 +394,7 @@
 
 <footer>
   <div class="wrap">
-    <span>© 2026 Zeroin Ltd, United Kingdom. Eleanor is a product of Zeroin Ltd.</span>
+    <span>© 2026 ZEROINE LTD, United Kingdom. Eleanor is a product of ZEROINE LTD.</span>
     <span><a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a> · <a href="mailto:dzmitry.karahin@yahoo.com">Contact</a></span>
   </div>
 </footer>
